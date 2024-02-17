@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Obtem o diretório do roteiro atual
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Executa o roteiro Lua
+lua "$DIR/temperamento.lua"
