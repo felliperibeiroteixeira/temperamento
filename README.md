@@ -16,7 +16,7 @@ lua temperamento.lua
 
 2. Crie um arquivo com estenção sh dentro da pasta 'temperamento' ao lado dos arquivos Lua com o nome 'temperamento'
 
-3. Adcione o seguinte codigo dentro do arquivo
+3. Adcione o seguinte código dentro do arquivo
 
 ```
 #!/bin/bash
@@ -34,7 +34,7 @@ lua "$DIR/temperamento.lua"
 export PATH=$PATH:/home/admin/temperamento
 ```
 
-Substitui 'admin' pelo nome da pasta de de usuario
+Substitua 'admin' pelo nome da pasta de de usuário
 
 5. Agora é so executar o comando
 
